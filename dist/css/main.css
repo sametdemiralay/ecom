@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Raleway', sans-serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.headerOne {
+  width: 100%;
+  background: #0f8db3;
+}
+
+.headerOne__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerOne__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0;
+}
+
+.headerOne__search form {
+  height: 44px;
+}
+
+.headerOne__search select {
+  width: 135px;
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left: 5px;
+  border: none;
+  font-size: 13px;
+}
+
+.headerOne__search input {
+  width: 346px;
+  height: 100%;
+  border: none;
+}
+
+.headerOne__search input:focus {
+  border: none;
+}
+
+.headerOne__search button {
+  height: 100%;
+  width: 68px;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  background: #0c6d8a;
+  color: #fff;
+}
+
+.headerOne__search button:hover {
+  background: #fff;
+  color: #0c6d8a;
+}
+
+.headerOne__call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #fff;
+}
+
+.headerOne__call i {
+  font-size: 35px;
+}
+
+.headerOne__call--texts p {
+  font-size: 13px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.headerOne__call--texts strong {
+  font-weight: 700;
+}
+
+.headerTwo {
+  width: 100%;
+  background: #0c6d8a;
+}
+
+.headerTwo .navbar {
+  margin-top: 2px;
+  padding: .5rem 0;
+}
+
+.headerTwo .navbar .nav-link {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.headerTwo .navbar .nav-link:hover {
+  font-weight: 700;
+}
+
+.headerTwo .dropdown {
+  position: static;
+}
+
+.headerTwo .dropdown-menu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.headerTwo .dropdown-menu h5 {
+  color: #222;
+  padding: 10px 0;
+  font-size: 17px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.5);
+}
+
+.headerTwo .dropdown-menu img {
+  width: 100%;
+}
+
+.headerTwo .dropdown-item {
+  padding: 5px 0;
+}
+
+.headerTwo__shopping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerTwo__shopping i {
+  color: #000;
+  background: #fff;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+// import abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// import base
+@import "./base/reset";
+@import "./base/base";
+
+// import layout
+@import "./layout/navigation";
+@import "./layout/footer";
+
+// import pages
+@import "./pages/home";
