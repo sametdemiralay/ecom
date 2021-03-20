@@ -1,6 +1,84 @@
+.headerZero{
+  width: 100%;
+  background: #f2f2f2;
+  font-size: 12px;
+
+  .topLeft{
+    display: flex;
+    align-items: center;
+    span{
+      color: #003764;
+      font-weight: 600;
+    }
+    p{
+      color: #464646;
+      font-weight: 300;
+    }
+  }
+
+  .topRight{
+    ul{
+      display: flex;
+      justify-content: flex-end;
+
+      li{
+        display: flex;
+        align-items: center;
+        height: 30px;
+        &:not(:last-child):after{
+          content: "";
+          background: #464646;
+          width: 1px;
+          height: 100%;
+          display: block;
+          margin: 0 10px;
+        }
+
+        i{
+          margin-right: 5px;
+          font-size: 12px;
+        }
+
+        a{
+          color: #464646;
+          font-weight: 300;
+          text-decoration: none;
+        }
+
+        .zeroDrop{
+          position: absolute;
+          top: 30px;
+          width: 105px;
+          background: #f2f2f2;
+          display: none;
+          z-index: 9;
+
+          li{
+            padding-left: 15px;
+
+            &::after{
+              content: none;
+            }
+
+            &:hover{
+              background: rgb(201, 201, 201);
+            }
+          }
+        }
+
+        &:hover{
+          .zeroDrop{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
 .headerOne{
   width: 100%;
-  background: #0f8db3;
+  background: #003764;
 
   &__image{
     display: flex;
@@ -72,7 +150,7 @@
 
 .headerTwo{
   width: 100%;
-  background: #0c6d8a;
+  background: #00173b;
 
   .navbar{
     margin-top: 2px;
@@ -80,9 +158,9 @@
 
     .nav-link{
       color: #fff;
-      font-size: 14px;
-      letter-spacing: 2px;
-      font-weight: 900;
+      font-size: 12px;
+      letter-spacing: 3px;
+      font-weight: 600;
 
       &:hover{
         font-weight: 700;
